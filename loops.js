@@ -17,5 +17,7 @@ function whileLoop(n){
 }
 
 function doWhileLoop(integer){
-  
+do {
+  console.log("I can run once regardle");
+} while (incrementVariable() < num);
 }
