@@ -17,7 +17,11 @@ function whileLoop(n){
 }
 
 function doWhileLoop(integer){
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
 do {
-  console.log("I can run once regardle");
+  console.log("I run once regardless.");
 } while (incrementVariable() < num);
 }
